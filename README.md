@@ -5,8 +5,7 @@
 Human Factors M.Sc., Technische Universität Berlin  
 Institute of Psychology and Ergonomics  
 Supervised by: Prof. Dr. Linda Onnasch & Steffen Hösterey  
-Juni 2026
-
+Submitted in April 2025
 ---
 
 ## Overview

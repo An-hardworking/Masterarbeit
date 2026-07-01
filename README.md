@@ -23,37 +23,25 @@ paradigm (VIRTRAS).
 
 | File | Description |
 |------|-------------|
-| `RUN_ME_Masterscript.R` | Master script — runs the full 
-analysis pipeline in order |
+| `RUN_ME_Masterscript.R` | Master script — runs the full analysis pipeline in order |
 | `Load_packages.R` | Loads all required R packages |
 | `0_Unvoll.R` | Initial/incomplete preprocessing steps (not included in the data analysis)|
 | `1_DataCleaning.R` | Data cleaning and exclusion criteria |
-| `2_Questionnaire_data.R` | Processing of questionnaire data 
-(AICP, PTT, TSE, demographics) |
-| `3_Assemble.R` | Merges behavioral and questionnaire 
-datasets |
-| `4_Models_results.R` | Main model fitting and hypothesis 
-testing |
-| `8_Descriptiveplots.R` | Descriptive statistics and 
-visualization (violin plots etc.) |
-| `Explorativ.R` | Exploratory analyses (VR experience, 
-sensitivity analyses) |
+| `2_Questionnaire_data.R` | Processing of questionnaire data (AICP, PTT, TSE, demographics) |
+| `3_Assemble.R` | Merges behavioral and questionnaire datasets |
+| `4_Models_results.R` | Main model fitting and hypothesis testing |
+| `8_Descriptiveplots.R` | Descriptive statistics and visualization (violin plots etc.) |
+| `Explorativ.R` | Exploratory analyses (VR experience, sensitivity analyses) |
 | `model1a.R` | H1a — PTT + AICP predicting trust |
-| `model1b.R` | H1b — PTT + AICP predicting dependence 
-behavior |
+| `model1b.R` | H1b — PTT + AICP predicting dependence behavior |
 | `model2a.R` | RQ2a — TSE as additional predictor of trust |
-| `model2b.R` | RQ2b — TSE as additional predictor of 
-dependence behavior |
+| `model2b.R` | RQ2b — TSE as additional predictor of dependence behavior |
 | `model3a.R` | H3a — Reliability + Exposure predicting trust |
-| `model3b.R` | H3b — Reliability + Exposure predicting 
-dependence behavior |
-| `model4a.R` | H4a — Reliability × Exposure interaction 
-on trust |
-| `model4b.R` | H4b — Reliability × Exposure interaction 
-on dependence behavior |
+| `model3b.R` | H3b — Reliability + Exposure predicting dependence behavior |
+| `model4a.R` | H4a — Reliability × Exposure interaction on trust |
+| `model4b.R` | H4b — Reliability × Exposure interaction on dependence behavior |
 | `CSV_Data` | Preprocessed extracted data (CSV format) |
-| `data_vr-interaktion_preprocessed.xlsx` | Preprocessed raw 
-data from VIRTRAS |
+| `data_vr-interaktion_preprocessed.xlsx` | Preprocessed raw data from VIRTRAS |
 
 ---
 
@@ -64,7 +52,6 @@ data from VIRTRAS |
 ```r
 setwd("your/path/here")
 ```
-3. Run the master script — it calls all other scripts 
-in the correct order.
+3. Run the master script — it calls all other scripts in the correct order.
 
 Alternatively, run individual scripts in this order:

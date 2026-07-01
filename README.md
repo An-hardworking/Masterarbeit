@@ -2,11 +2,11 @@
 ## Explaining Divergences in Trust and Dependence Behavior 
 ## in Human-Automation Interaction
 **Thi An Nguyen Phan**  
-
 Human Factors M.Sc., Technische Universität Berlin  
 Institute of Psychology and Ergonomics  
 Supervised by: Prof. Dr. Linda Onnasch & Steffen Hösterey  
-Submitted in April 2025
+Juni 2026
+
 ---
 
 ## Overview
